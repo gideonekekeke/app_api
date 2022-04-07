@@ -7,11 +7,11 @@ const mySchema = mongoose.Schema({
         required : true
     },
     phoneNumber : {
-        type : Number,
+        type : String,
         required : true
     },
     serialNumber : {
-        type : Number,
+        type : String,
         required : true
     },
 })
